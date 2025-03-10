@@ -8,7 +8,7 @@
     composer install
     ```
 
-2. Zkopírujte `.env.example` do `.env` a nastavte databázi na SQLite
+2. Zkopírujte `.env.example` do `.env`
 
     ```
     cp .env.example .env
