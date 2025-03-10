@@ -14,13 +14,15 @@
     cp .env.example .env
     ```
 
-    Upravte `.env` soubor:
+    V `.env` doplňte FB a Google api keys, secrets a redirect callbacks:
 
     ```
-    DB_CONNECTION=sqlite
-    ```
+    FACEBOOK_CLIENT_ID=XXXXXXXXXXXXXXXX
+    FACEBOOK_CLIENT_SECRET=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-    Doplňte Google a Facebook API keys
+    GOOGLE_CLIENT_ID=XXXXXXXXXXXX-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com
+    GOOGLE_CLIENT_SECRET=XXXXXX-XXXX-xxxxxxxxxxxxxxxxxxxxxxx
+    ```
 
 3. Vygenerujte aplikační klíč
 
